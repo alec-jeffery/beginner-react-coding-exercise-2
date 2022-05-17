@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .container {
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .quotesLoop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .quoteImage {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 450px;
+  }
+
+  blockquote {
+    /* display: flex; */
+    text-align: center;
+  }
+
+  blockquote:before {
+    margin-right: 1.5rem;
+    margin-top: -0.5rem;
+    content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 53.984 46.304'><path id='Path_2' data-name='Path 2' d='M20.78,0a93.025,93.025,0,0,1,2.485,20.78q0,12.649-5.76,19.086T.452,46.3V37.043q5.873,0,8.357-3.049t2.485-9.374v-5.2H0V0ZM51.273,0a93.756,93.756,0,0,1,2.71,20.78q0,12.649-5.873,19.086T30.945,46.3V37.043q5.873,0,8.357-3.049t2.485-9.374v-5.2H30.493V0Z' transform='translate(53.984 46.304) rotate(180)' fill='%233753a4' opacity='0.175'/></svg>");
+  }
+  blockquote:after {
+    margin-left: 1.5rem;
+    margin-top: -0.5rem;
+    content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 53.984 46.304'><path id='Path_2' data-name='Path 2' d='M20.78,0a93.025,93.025,0,0,1,2.485,20.78q0,12.649-5.76,19.086T.452,46.3V37.043q5.873,0,8.357-3.049t2.485-9.374v-5.2H0V0ZM51.273,0a93.756,93.756,0,0,1,2.71,20.78q0,12.649-5.873,19.086T30.945,46.3V37.043q5.873,0,8.357-3.049t2.485-9.374v-5.2H30.493V0Z' fill='%233753a4' opacity='0.175'/></svg>");
+  }
+
+  button {
+    /* display: inline-block; */
+  }
+}
+
+Create three equal columns that floats next to each other
+.column {
+  /* float: left; */
+  padding: 10px;
+}
+
+.quote {
+  width: 10%
+}
+
+.leftButton {
+  width: 10rem;
+  margin-right: auto;
+} 
+
+.rightButton {
+  width: 10rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

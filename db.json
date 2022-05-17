@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "quote": "If I had a gun with two bullets and I was in a room with Hitler, Bin Laden, and Toby, I would shoot Toby twice.",
+      "character": {
+        "firstName": "Michael",
+        "lastName": "Scott",
+        "avatar": "michael.png"
+      }
+    },
+    {
+      "id": 2,
+      "quote": "Last year, Creed asked me how to set up a blog. Wanting to protect the world from being exposed to Creed's brain, I opened up a Word document on his computer and put an address at the top. I've read some of it. Even for the Internet, it's... pretty shocking.",
+      "character": {
+        "firstName": "Ryan",
+        "lastName": "Howard",
+        "avatar": "ryan.png"
+      }
+    },
+    {
+      "id": 3,
+      "quote": "Whenever I'm about to do something, I think, 'Would an idiot do that?' And if they would, I do not do that thing.",
+      "character": {
+        "firstName": "Dwight",
+        "lastName": "Schrute",
+        "avatar": "dwight.png"
+      }
+    },
+    {
+      "id": 4,
+      "quote": "You give me a gift? Bam! Thank You note. You invite me somewhere? Pow! RSVP. You do me a favor? Wham! Favor returned. Do not test my politeness.",
+      "character": {
+        "firstName": "Andy",
+        "lastName": "Bernard",
+        "avatar": "andy.png"
+      }
+    },
+    {
+      "id": 5,
+      "quote": "It's performance review day, company-wide. Last year, my performance review started with Michael asking me what my hopes and dreams were, and it ended with him telling me he could bench-press 190 pounds. So, I don't really know what to expect.",
+      "character": {
+        "firstName": "Pam",
+        "lastName": "Beesly",
+        "avatar": "pam.png"
+      }
+    },
+    {
+      "id": 6,
+      "quote": "Bears. Beets. Battlestar Galactica.",
+      "character": {
+        "firstName": "Jim",
+        "lastName": "Halpert",
+        "avatar": "jim.png"
+      }
+    }
+  ]
+}
